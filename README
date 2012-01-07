@@ -1,0 +1,12 @@
+Demo project showing how to do custom build with layers in dojo 1.7.
+
+Requirements: 
+- Must download and unzip dojo-src (http://download.dojotoolkit.org/release-1.7.1/dojo-release-1.7.1-src.zip)
+- Unzip to: mywebapp/scripts/dojo-release-1.7.1-src
+
+How to test the application:
+- Host the mywebapp folder on a web-server:
+$python -m SimpleHTTPServer
+
+How to execute the build: 
+mywebapp/scripts/dojo-release-1.7.1-src/util/buildscripts$ ./build.sh profile=../../../mycompany/mycompany.profile.js -r
