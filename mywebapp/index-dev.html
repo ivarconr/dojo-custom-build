@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Hello Dojo!</title>
+    <!-- load Dojo -->
+    <script data-dojo-config="async: true" src="http://ajax.googleapis.com/ajax/libs/dojo/1.7.1/dojo/dojo.js"></script>
+    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/dojo/1.7.1/dijit/themes/claro/claro.css" />
+
+    <!-- Configure where our modules-->
+    <script type="text/javascript">
+    require(['dojo/_base/kernel', 'dojo/_base/loader'], function(dojo){
+        dojo.registerModulePath("mycompany", "/scripts/mycompany");
+    });
+    
+    //Start app
+    require(["mycompany/widgets/Example","dojo/domReady!"], function(Example) {
+        new Example({}, "app");
+    });
+    </script>
+</head>    
+<body>
+    <div id="app">
+        <p>loading webapp...</p>
+    </div>    
+</body>
+</html>

@@ -1,0 +1,9 @@
+{
+	"name": "mycompany",
+	"version":"1.0.0",
+	"main":"plattform",
+	"dependencies": {
+		"dojo": "current"
+	},
+	"dojoBuild": "mycompany.profile.js"
+}
