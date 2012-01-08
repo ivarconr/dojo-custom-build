@@ -7,3 +7,6 @@
 [submodule "mywebapp/scripts/dojo-release-1.7.1-src/dijit"]
 	path = mywebapp/scripts/dojo-release-1.7.1-src/dijit
 	url = https://github.com/dojo/dijit.git
+[submodule "mywebapp/scripts/dojo-release-1.7.1-src/dojox"]
+	path = mywebapp/scripts/dojo-release-1.7.1-src/dojox
+	url = https://github.com/dojo/dojox.git
