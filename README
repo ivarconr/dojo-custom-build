@@ -9,4 +9,5 @@ How to test the application:
 $python -m SimpleHTTPServer
 
 How to execute the build: 
-mywebapp/scripts/dojo-release-1.7.1-src/util/buildscripts$ ./build.sh profile=../../../mycompany/mycompany.profile.js -r
+from the mywebapp/scripts/dojo-release-1.7.1-src/util/buildscripts folder execute:
+$ ./build.sh profile=../../../release.profile.js -r
